@@ -1,0 +1,29 @@
+.header{
+  background-color: var(--bgColor);
+}
+.header__wrapper {
+
+ 
+  padding: 16px 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  
+
+}
+
+.header-title {
+  font-size: 28px;
+  font-family: "Bold";
+  color: var(--Title);
+  letter-spacing: 1px;
+}
+
+.container {
+  max-width: 1310px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+}

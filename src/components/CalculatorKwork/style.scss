@@ -1,0 +1,93 @@
+.calculator {
+  max-width: 460px;
+  margin: 30px auto;
+  padding: 24px;
+  border-radius: 12px;
+  background-color: var(--bgColor);
+  color: var(--textColor);
+  font-family: sans-serif;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: var(--Title);
+    font-family: "Bold";
+    font-size: 32px;
+    letter-spacing: 1px;
+  }
+}
+
+/* ---------- Amount input ---------- */
+
+.amount-block {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.amount-label {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: var(--Purple);
+  opacity: 0.85;
+  font-family: "Bold";
+}
+
+.amount-input {
+  width: 180px;
+  padding: 14px 16px;
+  font-size: 28px;
+  text-align: center;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: var(--textColor);
+  font-family: "Bold";
+}
+
+/* убираем стрелки */
+.amount-input::-webkit-outer-spin-button,
+.amount-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.amount-input[type="number"] {
+  appearance: textfield;
+}
+
+/* ---------- Result ---------- */
+
+.result {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 20px;
+  opacity: 0.9;
+  font-family: "Bold";
+}
+
+.result-value {
+  margin-top: 6px;
+  font-size: 34px;
+  font-family: "Bold";
+  color: var(--Name);
+}
+
+/* ---------- Rates info ---------- */
+
+.rates-info {
+  margin-top: 18px;
+  font-size: 18px;
+  opacity: 0.9;
+  font-family: "Bold";
+  color: var(--SubTitle);
+
+  p {
+    margin: 4px 0;
+  }
+}
+
+.rates-title {
+  margin-bottom: 20px;
+  font-family: "Bold";
+  font-size: 20px;
+}

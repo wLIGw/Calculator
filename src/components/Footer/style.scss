@@ -1,0 +1,33 @@
+.footer {
+    background-color: var(--bgColor);
+    padding: 15px 0;
+    
+
+}
+.footer__text {
+    color: var(--textColor);
+
+    font-family: "Bold";
+}
+.footer__span {
+     color: var(--textColor);
+
+}
+.footer__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__title {
+    font-size: 28px;
+  font-family: "Bold";
+  color: var(--Title);
+  letter-spacing: 1px;
+}
+.container {
+  max-width: 1310px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+}
